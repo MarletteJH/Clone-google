@@ -176,3 +176,65 @@ main .main-buttons button:hover{
 ****************************************************
 *************************************************/
 /* FOOTER */
+
+
+footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: #edede9;
+    padding: 10px;
+    height: auto;
+}
+
+footer {
+    /* width - ancho /// height-alto */
+    width: 100%;
+    height: 10%;
+    position: absolute;
+    bottom: 0px;
+    padding-bottom: 1%;
+    background-color: rgb(242, 242, 242);
+}
+
+footer .down,.downright{
+    list-style:none;
+    display: flex;
+    position: fixed;
+}
+
+#first{
+    padding-left: 2%;
+    border-bottom: 1px solid #dadce0;
+    margin-bottom: 2px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+
+footer span{
+    color: #70757a;
+    font-size: 15px;
+}
+
+footer .downright{
+    right: 0;
+    padding-right: 2%;
+}
+
+footer .down{
+    padding-left: 2%;
+}
+
+footer li{
+    margin-right: 20px;
+}
+
+footer a{
+    color: #70757a;
+    font-size: 14px;
+}
+
+footer a:hover{
+    text-decoration: underline grey;
+}
